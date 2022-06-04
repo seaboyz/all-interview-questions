@@ -4,6 +4,7 @@
   - [Tell me about a time when you had a person that was hampering your progress as a team](#tell-me-about-a-time-when-you-had-a-person-that-was-hampering-your-progress-as-a-team)
   - [If you had a superpower what would it be and why?](#if-you-had-a-superpower-what-would-it-be-and-why)
   - [Tell me about yourself and what led you to Revature?](#tell-me-about-yourself-and-what-led-you-to-revature)
+  - [How to resolve conflicts between team members?](#how-to-resolve-conflicts-between-team-members)
 - [Core Java and OOP](#core-java-and-oop)
   - [What is DAO?](#what-is-dao)
   - [Difference between abstract classes and interfaces?](#difference-between-abstract-classes-and-interfaces)
@@ -32,6 +33,16 @@
   - [How to handle class not found](#how-to-handle-class-not-found)
   - [exception](#exception)
   - [Java 8 interfaces and features](#java-8-interfaces-and-features)
+  - [MapException handling](#mapexception-handling)
+  - [Difference between string buffer and String Builder](#difference-between-string-buffer-and-string-builder)
+  - [What is java 8 features?](#what-is-java-8-features-1)
+  - [Describe Abstract in OOP](#describe-abstract-in-oop-1)
+  - [what is Java streaming?](#what-is-java-streaming-1)
+  - [difrenerence between Throw and Throws?](#difrenerence-between-throw-and-throws)
+- [Server Side](#server-side)
+  - [What is an Http client?](#what-is-an-http-client)
+  - [What is stateless?](#what-is-stateless)
+  - [What is thymeleaf?](#what-is-thymeleaf)
 - [Database](#database)
   - [How you connected your db in java?](#how-you-connected-your-db-in-java-1)
   - [Have you worked with Hibernate before?](#have-you-worked-with-hibernate-before)
@@ -41,6 +52,10 @@
   - [What is Relational Database Management Services (RDMS)?](#what-is-relational-database-management-services-rdms)
   - [It is not RDS](#it-is-not-rds)
   - [SQL: How to fetch top 10 salaried employees?](#sql-how-to-fetch-top-10-salaried-employees)
+  - [JPA/Hibernate/JDBC](#jpahibernatejdbc)
+  - [What is aggregator?](#what-is-aggregator)
+  - [How many databases did I use?](#how-many-databases-did-i-use)
+  - [Can I name what they are?](#can-i-name-what-they-are)
 - [Spring](#spring)
   - [Spring framework:Tell me about spring boot](#spring-frameworktell-me-about-spring-boot)
   - [Describe annotation for each of the MVC application layers?](#describe-annotation-for-each-of-the-mvc-application-layers)
@@ -56,10 +71,13 @@
   - [What are the annotations that you know for spring jpa and what do they mean?](#what-are-the-annotations-that-you-know-for-spring-jpa-and-what-do-they-mean)
   - [What is an Http session?](#what-is-an-http-session)
   - [Where would you do the configuration in a spring project?](#where-would-you-do-the-configuration-in-a-spring-project)
+  - [Describe the spring application workflow](#describe-the-spring-application-workflow-1)
+  - [What is @RestController?](#what-is-restcontroller)
 - [Git](#git)
   - [Github: merge conflict and how you handle this?](#github-merge-conflict-and-how-you-handle-this)
   - [Github: merge conflict and how you handle this?](#github-merge-conflict-and-how-you-handle-this-1)
   - [If coding conflict occurs how you going to handle this with your team mate.](#if-coding-conflict-occurs-how-you-going-to-handle-this-with-your-team-mate)
+  - [What is the diff?](#what-is-the-diff)
 - [Project](#project)
   - [Can you explain about your project that you did by yourself?](#can-you-explain-about-your-project-that-you-did-by-yourself)
   - [for a projectHow would you describe Java and Angular in a non-technical way?](#for-a-projecthow-would-you-describe-java-and-angular-in-a-non-technical-way)
@@ -69,9 +87,11 @@
   - [Experience with team](#experience-with-team)
   - [Talk about your project overall?](#talk-about-your-project-overall)
   - [What technologies did you used for those projects?](#what-technologies-did-you-used-for-those-projects)
+  - [How would you let other developers/testers know how to access your urls?](#how-would-you-let-other-developerstesters-know-how-to-access-your-urls)
+  - [Behavior:Project role/responsibility](#behaviorproject-roleresponsibility)
 - [Angular](#angular)
   - [What bindings do you know in Angular?](#what-bindings-do-you-know-in-angular)
-- [how do you navigate from page to page in stateless Angular hooks](#how-do-you-navigate-from-page-to-page-in-stateless-angular-hooks)
+  - [how do you navigate from page to page in stateless Angular hooks](#how-do-you-navigate-from-page-to-page-in-stateless-angular-hooks)
   - [Are you familiar with stepping ahead, and compiling, in Angular?](#are-you-familiar-with-stepping-ahead-and-compiling-in-angular)
   - [What is Angular and could it work on Mobile?](#what-is-angular-and-could-it-work-on-mobile)
   - [What is angular hooks?](#what-is-angular-hooks)
@@ -83,10 +103,18 @@
   - [What is Agile?](#what-is-agile)
   - [What is the difference between Waterfall and Agile?](#what-is-the-difference-between-waterfall-and-agile)
   - [Agile/scrum methodology...](#agilescrum-methodology)
+  - [What is waterfall software lifecycle development?](#what-is-waterfall-software-lifecycle-development-1)
+  - [What is Agile?](#what-is-agile-1)
+  - [What is the difference between Waterfall and Agile?](#what-is-the-difference-between-waterfall-and-agile-1)
+  - [When is each method of software development apply?](#when-is-each-method-of-software-development-apply-1)
 - [Testing](#testing)
   - [TDD](#tdd)
   - [BDD](#bdd)
-- [devops](#devops)
+- [Devops](#devops)
+  - [Iaas?](#iaas)
+  - [Paas?](#paas)
+  - [Saas?](#saas)
+  - [Iaas vs Paas vs Saas?](#iaas-vs-paas-vs-saas)
   - [what is docker?](#what-is-docker)
   - [What Dev Ops did you use in any of your projects?](#what-dev-ops-did-you-use-in-any-of-your-projects)
   - [Asked about EC2.](#asked-about-ec2)
@@ -111,50 +139,19 @@
   - [(Firewall)What are security roles, security groups, and other functions in AWS besides RDS, and #### Region vs Country data centers in AWS?](#firewallwhat-are-security-roles-security-groups-and-other-functions-in-aws-besides-rds-and--region-vs-country-data-centers-in-aws)
   - [What is EC2 and S3 in AWS?](#what-is-ec2-and-s3-in-aws-1)
   - [How do you configure a AWS S3?](#how-do-you-configure-a-aws-s3-1)
-- [frontend](#frontend)
-  - [what is CSS why it is used for?](#what-is-css-why-it-is-used-for)
-- [Command line](#command-line)
-  - [command line used Linux command used for the project](#command-line-used-linux-command-used-for-the-project)
-  - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
-  - [Are you familiar with Identity Access Manager (IAM)?](#are-you-familiar-with-identity-access-manager-iam)
-  - [How would you let other developers/testers know how to access your urls?](#how-would-you-let-other-developerstesters-know-how-to-access-your-urls)
-  - [What is waterfall software lifecycle development?](#what-is-waterfall-software-lifecycle-development-1)
-  - [What is Agile?](#what-is-agile-1)
-  - [What is the difference between Waterfall and Agile?](#what-is-the-difference-between-waterfall-and-agile-1)
-  - [When is each method of software development apply?](#when-is-each-method-of-software-development-apply-1)
-  - [What is java 8 features?](#what-is-java-8-features-1)
-  - [Describe Abstract in OOP](#describe-abstract-in-oop-1)
-  - [what is Java streaming?](#what-is-java-streaming-1)
-  - [Describe the spring application workflow](#describe-the-spring-application-workflow-1)
-  - [(Gmail as one)How to resolve conflicts between team members?](#gmail-as-onehow-to-resolve-conflicts-between-team-members)
-  - [Difference between abstract classes and interfaces?](#difference-between-abstract-classes-and-interfaces-1)
-  - [What is Encapsulation and Abstraction?](#what-is-encapsulation-and-abstraction-1)
-  - [What is DAO?](#what-is-dao-1)
-  - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory-1)
-  - [Are you familiar with Identity Access Manager (IAM)?](#are-you-familiar-with-identity-access-manager-iam-1)
-  - [What is aggregator?](#what-is-aggregator)
-  - [How many databases did I use?](#how-many-databases-did-i-use)
-  - [Can I name what they are?](#can-i-name-what-they-are)
   - [What is platform as a service?](#what-is-platform-as-a-service)
-  - [What is the diff?](#what-is-the-diff)
-  - [What is thymeleaf?](#what-is-thymeleaf)
-  - [(only because I talked about my side project) What is an Http client?](#only-because-i-talked-about-my-side-project-what-is-an-http-client)
-  - [difrenerence between Throw and Throws?](#difrenerence-between-throw-and-throws)
-  - [What is @RestController?](#what-is-restcontroller)
-  - [What is stateless?](#what-is-stateless)
-  - [Behavior:Project role/responsibility](#behaviorproject-roleresponsibility)
-  - [What is agile?](#what-is-agile-2)
-  - [Java Core lambda expression](#java-core-lambda-expression)
-  - [JPA/Hibernate/JDBC](#jpahibernatejdbc)
-  - [Rest Api URL washing](#rest-api-url-washing)
-  - [MapException handling](#mapexception-handling)
+  - [Are you familiar with Identity Access Manager (IAM)?](#are-you-familiar-with-identity-access-manager-iam)
+  - [Are you familiar with Identity Access Manager (IAM)?](#are-you-familiar-with-identity-access-manager-iam-1)
+- [Frontend](#frontend)
+  - [what is CSS why it is used for?](#what-is-css-why-it-is-used-for)
   - [JavaScript](#javascript)
   - [Typescript](#typescript)
   - [JavaScript Functions](#javascript-functions)
-  - [Difference between string buffer and String BuilderA](#difference-between-string-buffer-and-string-buildera)
   - [difference between a session and a cookie](#difference-between-a-session-and-a-cookie)
-  - [4 pillars of OOP](#4-pillars-of-oop)
-  - [linux](#linux)
+- [Command line](#command-line)
+  - [command line used Linux command used for the project](#command-line-used-linux-command-used-for-the-project)
+  - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
+  - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory-1)
 
 ### Soft
 #### Tell about Your self
@@ -162,9 +159,7 @@
 #### Tell me about a time when you had a person that was hampering your progress as a team
 #### If you had a superpower what would it be and why? 
 #### Tell me about yourself and what led you to Revature?
-
-
-
+#### How to resolve conflicts between team members?
 
 
 ### Core Java and OOP
@@ -195,6 +190,18 @@
 #### How to handle class not found 
 #### exception
 #### Java 8 interfaces and features
+#### MapException handling
+#### Difference between string buffer and String Builder
+#### What is java 8 features?
+#### Describe Abstract in OOP
+#### what is Java streaming?
+#### difrenerence between Throw and Throws? 
+
+### Server Side
+#### What is an Http client? 
+#### What is stateless? 
+#### What is thymeleaf?
+
 
 ### Database
 #### How you connected your db in java?
@@ -205,6 +212,10 @@
 #### What is Relational Database Management Services (RDMS)? 
 #### It is not RDS
 #### SQL: How to fetch top 10 salaried employees?
+#### JPA/Hibernate/JDBC 
+#### What is aggregator? 
+#### How many databases did I use?
+#### Can I name what they are? 
 
 ### Spring
 #### Spring framework:Tell me about spring boot 
@@ -221,12 +232,16 @@
 #### What are the annotations that you know for spring jpa and what do they mean? 
 #### What is an Http session? 
 #### Where would you do the configuration in a spring project? 
+#### Describe the spring application workflow
+#### What is @RestController? 
+
 
 
 ### Git
 #### Github: merge conflict and how you handle this? 
 #### Github: merge conflict and how you handle this? 
 #### If coding conflict occurs how you going to handle this with your team mate.
+#### What is the diff?
 
 ### Project
 #### Can you explain about your project that you did by yourself?
@@ -237,10 +252,13 @@
 #### Experience with team
 #### Talk about your project overall? 
 #### What technologies did you used for those projects?
+#### How would you let other developers/testers know how to access your urls?
+#### Behavior:Project role/responsibility
+
 
 ### Angular
 #### What bindings do you know in Angular?
-### how do you navigate from page to page in stateless Angular hooks
+#### how do you navigate from page to page in stateless Angular hooks
 #### Are you familiar with stepping ahead, and compiling, in Angular?
 #### What is Angular and could it work on Mobile?
 #### What is angular hooks? 
@@ -254,12 +272,40 @@
 #### What is Agile? 
 #### What is the difference between Waterfall and Agile?
 #### Agile/scrum methodology... 
+#### What is waterfall software lifecycle development?
+#### What is Agile? 
+#### What is the difference between Waterfall and Agile?
+#### When is each method of software development apply?
 
 ### Testing
 #### TDD 
 #### BDD
 
-### devops
+### Devops
+#### Iaas?
+* Inrastructure as a service
+* AWS S3(Simple Storage Service)
+#### Paas?
+* Platform as a service
+* AWS EC2(Elastic Compute Cloud)
+* AWS RDS(Relational Database Service)
+#### Saas?
+* Software as a service
+* Trello
+#### Iaas vs Paas vs Saas?
+* -> Ease of use increases
+* -> Complexity decreases
+* Iaas == Leasing a car()
+  * you can choose color specs
+  * you focus more what you want
+  * but you have restrictions(mileage, fuel, etc)
+* Paas == Car rental
+  * you not really care the color specs 
+  * more concerned about the price, size, specs you need
+* Saas == Uber or Lyft
+  * you not really care the color specs 
+  * You are not driving or pay the gas.
+* ![](saas-iaas-paas.png)
 #### what is docker? 
 #### What Dev Ops did you use in any of your projects?
 #### Asked about EC2. 
@@ -284,76 +330,43 @@
 #### (Firewall)What are security roles, security groups, and other functions in AWS besides RDS, and #### Region vs Country data centers in AWS?
 #### What is EC2 and S3 in AWS? 
 #### How do you configure a AWS S3?
+#### What is platform as a service?
+https://www.youtube.com/watch?v=QAbqJzd0PEE 
+#### Are you familiar with Identity Access Manager (IAM)?
+https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
+#### Are you familiar with Identity Access Manager (IAM)?
 
 
-### frontend
+### Frontend
 #### what is CSS why it is used for? 
+#### JavaScript
+#### Typescript
+#### JavaScript Functions
+#### difference between a session and a cookie
 
 ### Command line
 #### command line used Linux command used for the project
 #### Linux commands to switch between users and view the available space in a directory?
-
-
-
-#### Are you familiar with Identity Access Manager (IAM)?
-https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
-
-
-#### How would you let other developers/testers know how to access your urls?
-
-
-
-
-
- 
-
-
-#### What is waterfall software lifecycle development?
-#### What is Agile? 
-#### What is the difference between Waterfall and Agile?
-#### When is each method of software development apply?
-#### What is java 8 features?
-#### Describe Abstract in OOP
-
-#### what is Java streaming?
-#### Describe the spring application workflow
-
-
-
-#### (Gmail as one)How to resolve conflicts between team members?
-#### Difference between abstract classes and interfaces?
-#### What is Encapsulation and Abstraction?
-
-#### What is DAO?
-
 #### Linux commands to switch between users and view the available space in a directory?
-#### Are you familiar with Identity Access Manager (IAM)?
-#### What is aggregator? 
 
-#### How many databases did I use?
-#### Can I name what they are? 
-#### What is platform as a service? 
 
-#### What is the diff?
-#### What is thymeleaf?
-#### (only because I talked about my side project) What is an Http client? 
-#### difrenerence between Throw and Throws? 
-#### What is @RestController? 
-#### What is stateless? 
-#### Behavior:Project role/responsibility
-#### What is agile?
 
-#### Java Core lambda expression
-#### JPA/Hibernate/JDBC 
-#### Rest Api URL washing
-#### MapException handling
-#### JavaScript
-#### Typescript
-#### JavaScript Functions
-#### Difference between string buffer and String BuilderA 
-#### difference between a session and a cookie
-#### 4 pillars of OOP
-#### linux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
