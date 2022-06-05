@@ -5,6 +5,11 @@
   - [If you had a superpower what would it be and why?](#if-you-had-a-superpower-what-would-it-be-and-why)
   - [Tell me about yourself and what led you to Revature?](#tell-me-about-yourself-and-what-led-you-to-revature)
   - [How to resolve conflicts between team members?](#how-to-resolve-conflicts-between-team-members)
+  - [team cooperation](#team-cooperation)
+  - [communication](#communication)
+  - [Challenges](#challenges)
+  - [Strength](#strength)
+  - [weakness](#weakness)
 - [Core Java and OOP](#core-java-and-oop)
   - [What is DAO?](#what-is-dao)
   - [Difference between abstract classes and interfaces?](#difference-between-abstract-classes-and-interfaces)
@@ -117,27 +122,26 @@
   - [Iaas vs Paas vs Saas?](#iaas-vs-paas-vs-saas)
   - [what is docker?](#what-is-docker)
   - [What Dev Ops did you use in any of your projects?](#what-dev-ops-did-you-use-in-any-of-your-projects)
-  - [Asked about EC2.](#asked-about-ec2)
+  - [Jenkins](#jenkins)
   - [AWS S3 bucket](#aws-s3-bucket)
-  - [What is EC2 and S3 in AWS?](#what-is-ec2-and-s3-in-aws)
   - [How do you configure a AWS S3?](#how-do-you-configure-a-aws-s3)
   - [Cloud: what is EC2?](#cloud-what-is-ec2)
+  - [Elastic Beanstalk](#elastic-beanstalk)
+  - [IAM(security)](#iamsecurity)
+  - [Cognito](#cognito)
   - [what is s3 bucket?](#what-is-s3-bucket)
-  - [AWS storage](#aws-storage)
-  - [Cloud: what is EC2?](#cloud-what-is-ec2-1)
-  - [what is s3 bucket ?](#what-is-s3-bucket-)
   - [Are you familiar with AWS and Azure?](#are-you-familiar-with-aws-and-azure)
   - [What are cloud services and some known platforms?](#what-are-cloud-services-and-some-known-platforms)
   - [Have you used any other cloud servers?](#have-you-used-any-other-cloud-servers)
   - [What are cloud services and some known platforms?](#what-are-cloud-services-and-some-known-platforms-1)
   - [What are 5 different common cloud services/platforms?](#what-are-5-different-common-cloud-servicesplatforms)
-  - [Sonar Cloud/ci/cd/Jenkins/team cooperation/communication/ChallengesStrength/weaknessSQL](#sonar-cloudcicdjenkinsteam-cooperationcommunicationchallengesstrengthweaknesssql)
-  - [lot of cloud questions](#lot-of-cloud-questions)
+  - [Sonar Cloud](#sonar-cloud)
+  - [CI/CD](#cicd)
+  - [Jenkins](#jenkins-1)
   - [AWS Which service you used in your project Which service include in the training One](#aws-which-service-you-used-in-your-project-which-service-include-in-the-training-one)
   - [What AWS services have you used?](#what-aws-services-have-you-used)
   - [What is the initial layer in AWS before gaining access via IP?](#what-is-the-initial-layer-in-aws-before-gaining-access-via-ip)
   - [(Firewall)What are security roles, security groups, and other functions in AWS besides RDS, and #### Region vs Country data centers in AWS?](#firewallwhat-are-security-roles-security-groups-and-other-functions-in-aws-besides-rds-and--region-vs-country-data-centers-in-aws)
-  - [What is EC2 and S3 in AWS?](#what-is-ec2-and-s3-in-aws-1)
   - [How do you configure a AWS S3?](#how-do-you-configure-a-aws-s3-1)
   - [What is platform as a service?](#what-is-platform-as-a-service)
   - [Are you familiar with Identity Access Manager (IAM)?](#are-you-familiar-with-identity-access-manager-iam)
@@ -160,6 +164,11 @@
 #### If you had a superpower what would it be and why? 
 #### Tell me about yourself and what led you to Revature?
 #### How to resolve conflicts between team members?
+#### team cooperation
+#### communication
+#### Challenges
+#### Strength
+#### weakness
 
 
 ### Core Java and OOP
@@ -306,29 +315,109 @@
   * you not really care the color specs 
   * You are not driving or pay the gas.
 * ![](saas-iaas-paas.png)
+* Developer only focus on Application and Data
+* Vendor focus on infrastructure and services
+  * Serves
+  * storage
+  * virtualization
+  * middleware
+  * operating system
+  * runtime
+* Pros
+  * Fast, easy
+  * create delete update ease
+  * cost benefit
+  * tools
+* Cons
+  * Lack of control
+  * vender locking(difficult to migrate)
+  * performance scale
 #### what is docker? 
+https://youtu.be/Gjnup-PuquQ
+* Docker is a containerization platform for distributed applications.
+* ![](/virtual%20machine.png)
+* ![](/docker.png)
+* ![](dockfile-image-container.png)
 #### What Dev Ops did you use in any of your projects?
-#### Asked about EC2. 
+* ![](/aws-dev-ops.png)
+* ![](development-production.png)
+* Deployment
+* Goal
+  * Development and production work together
+  * Thought more alike
+  * Broke down silos
+  * Shared responsibility
+* Definition
+  * DevOps is the combination of the operations, development, and operations teams that are responsible for the overall development and operations of a software project.
+  * integrates developers and operations teams in order to improve collaboration and productivity by automating infrastructure, workflows and continuously measuring application performance.
+* Automation
+  * automate code testing
+  * automate workflows
+  * automate infrastructure
+  * automate everything 
+  * ![](automation.png)
+  * ![](automation2.png)
+#### Jenkins
 #### AWS S3 bucket
-#### What is EC2 and S3 in AWS? 
 #### How do you configure a AWS S3?
 #### Cloud: what is EC2? 
+* Elastic Compute Cloud
+* Virtual computer
+
+#### Elastic Beanstalk
+* auto scale
+
+#### IAM(security)
+* Identity and Access Management
+* https://youtu.be/vFB2CR7xCOM
+* Identity
+  * How you are represented online?
+  * User as an Identity trying to gain access to the right resources and at the right time and place sercurely.
+* Chanlenges
+  * password management
+  * alleviating identity silos
+  * sequring api access
+  * regulation compliance
+* Identity federation
+  * using a single identity across multiple systems
+  * use facebook login multiple systems
+  * single sing on
+  * Strong authentication
+  * multi factor authentication
+  * account management and provisioning
+    * user profile
+    * user configuration
+  * access control
+    * role based
+  * api and microservices security
+  * Regulation compliance
+
+#### Cognito
+* User pool
+
 #### what is s3 bucket?
-#### AWS storage
-#### Cloud: what is EC2? 
-#### what is s3 bucket ? 
+* simple storage service
+* storage
+* security
+* access control
+
 #### Are you familiar with AWS and Azure?
 #### What are cloud services and some known platforms?
 #### Have you used any other cloud servers?
 #### What are cloud services and some known platforms?
 #### What are 5 different common cloud services/platforms? 
-#### Sonar Cloud/ci/cd/Jenkins/team cooperation/communication/ChallengesStrength/weaknessSQL 
-#### lot of cloud questions
+#### Sonar Cloud
+#### CI/CD
+* Continuous Integration/Continuous Delivery
+* https://youtu.be/eB0nUzAI7M8
+* Github actions
+* ![](ci-cd.png)
+#### Jenkins
+
 #### AWS Which service you used in your project Which service include in the training One 
 #### What AWS services have you used?
 #### What is the initial layer in AWS before gaining access via IP? 
 #### (Firewall)What are security roles, security groups, and other functions in AWS besides RDS, and #### Region vs Country data centers in AWS?
-#### What is EC2 and S3 in AWS? 
 #### How do you configure a AWS S3?
 #### What is platform as a service?
 https://www.youtube.com/watch?v=QAbqJzd0PEE 
