@@ -413,7 +413,7 @@ https://youtu.be/Gjnup-PuquQ
 * Github actions
 * ![](ci-cd.png)
 #### Jenkins
-
+https://youtu.be/LFDrDnKPOTg
 #### AWS Which service you used in your project Which service include in the training One 
 #### What AWS services have you used?
 #### What is the initial layer in AWS before gaining access via IP? 
