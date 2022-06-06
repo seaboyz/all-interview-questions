@@ -1,5 +1,5 @@
 - [Soft](#soft)
-  - [Tell about Your self](#tell-about-your-self)
+  - [Tell about Your self?](#tell-about-your-self)
   - [Technical interview: Tell me about your self and within 3-4 years where you want to see your self.](#technical-interview-tell-me-about-your-self-and-within-3-4-years-where-you-want-to-see-your-self)
   - [Tell me about a time when you had a person that was hampering your progress as a team](#tell-me-about-a-time-when-you-had-a-person-that-was-hampering-your-progress-as-a-team)
   - [If you had a superpower what would it be and why?](#if-you-had-a-superpower-what-would-it-be-and-why)
@@ -62,8 +62,9 @@
   - [How many databases did I use?](#how-many-databases-did-i-use)
   - [Can I name what they are?](#can-i-name-what-they-are)
 - [Spring](#spring)
+  - [Srping Bean scrope?](#srping-bean-scrope)
   - [Spring framework:Tell me about spring boot](#spring-frameworktell-me-about-spring-boot)
-  - [Describe annotation for each of the MVC application layers?](#describe-annotation-for-each-of-the-mvc-application-layers)
+  - [Describe annotation for each of the Spring MVC application layers?](#describe-annotation-for-each-of-the-spring-mvc-application-layers)
   - [Describe the spring application workflow](#describe-the-spring-application-workflow)
   - [actuator](#actuator)
   - [Spring framework:Tell me about spring boot](#spring-frameworktell-me-about-spring-boot-1)
@@ -71,7 +72,6 @@
   - [What is dependencies Injection?](#what-is-dependencies-injection)
   - [How many types of beans in spring?](#how-many-types-of-beans-in-spring)
   - [What annotations that are use in Spring?](#what-annotations-that-are-use-in-spring)
-  - [Describe annotation for each of the MVC application layers?](#describe-annotation-for-each-of-the-mvc-application-layers-1)
   - [What is the difference between spring ang springboot?](#what-is-the-difference-between-spring-ang-springboot)
   - [What are the annotations that you know for spring jpa and what do they mean?](#what-are-the-annotations-that-you-know-for-spring-jpa-and-what-do-they-mean)
   - [What is an Http session?](#what-is-an-http-session)
@@ -84,6 +84,7 @@
   - [If coding conflict occurs how you going to handle this with your team mate.](#if-coding-conflict-occurs-how-you-going-to-handle-this-with-your-team-mate)
   - [What is the diff?](#what-is-the-diff)
 - [Project](#project)
+  - [Asked about the roles & responsibilities of current project being worked on?](#asked-about-the-roles--responsibilities-of-current-project-being-worked-on)
   - [Can you explain about your project that you did by yourself?](#can-you-explain-about-your-project-that-you-did-by-yourself)
   - [for a projectHow would you describe Java and Angular in a non-technical way?](#for-a-projecthow-would-you-describe-java-and-angular-in-a-non-technical-way)
   - [What annotation did you use in your project?](#what-annotation-did-you-use-in-your-project)
@@ -93,7 +94,6 @@
   - [Talk about your project overall?](#talk-about-your-project-overall)
   - [What technologies did you used for those projects?](#what-technologies-did-you-used-for-those-projects)
   - [How would you let other developers/testers know how to access your urls?](#how-would-you-let-other-developerstesters-know-how-to-access-your-urls)
-  - [Behavior:Project role/responsibility](#behaviorproject-roleresponsibility)
 - [Angular](#angular)
   - [What bindings do you know in Angular?](#what-bindings-do-you-know-in-angular)
   - [how do you navigate from page to page in stateless Angular hooks](#how-do-you-navigate-from-page-to-page-in-stateless-angular-hooks)
@@ -156,9 +156,24 @@
   - [command line used Linux command used for the project](#command-line-used-linux-command-used-for-the-project)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory-1)
+  - [06/05/2022 Questions](#06052022-questions)
 
 ### Soft
-#### Tell about Your self
+#### Tell about Your self?
+  * Focus on creating a positive first impression
+  * Arrive 20 minutes earlier than the interview
+  * read the interview introduction
+  * dress appropriately
+  * good posture, always be in front of the camera, smile, and demonstrate a good manner.
+  * anser:
+    1. "Hi, my name is Qiang Gao.
+    2. I am from Gerogetown TX, 40 mile from Austin TX.
+    2. Talk the SKILLS and Qualities you have that are must for the role you are applying for.
+    3. Talk about any experience or quliifications that you have that are must for the role you are applying for.
+    4. Talk about any significant achievements that you have gained in your work life or personal life so far.
+    5. Talk about the type of person you are and what you are going to do in the role if they hire you.
+  * scripe:
+    * ![](selft-introduction.png)
 #### Technical interview: Tell me about your self and within 3-4 years where you want to see your self.
 #### Tell me about a time when you had a person that was hampering your progress as a team
 #### If you had a superpower what would it be and why? 
@@ -227,8 +242,25 @@
 #### Can I name what they are? 
 
 ### Spring
+#### Srping Bean scrope?
+https://www.baeldung.com/spring-bean-scopes
+* definition
+  * The scope of a bean defines the life cycle and visibility of that bean in the contexts we use it.
+https://www.baeldung.com/spring-bean-scopes
+  * singleton
+  * prototype
+  * request
+  * session
+  * application
+  * websocket
+
 #### Spring framework:Tell me about spring boot 
-#### Describe annotation for each of the MVC application layers?
+
+#### Describe annotation for each of the Spring MVC application layers?
+  * https://www.youtube.com/watch?v=xkDBaldNki4
+  * As the name suggests, it's a module of the Spring framework dealing with the Model-View-Controller or MVC pattern. It combines all the advantages of the MVC pattern with the convenience of Spring.
+  * Spring MVC annotation
+    * https://www.baeldung.com/spring-mvc-annotations
 #### Describe the spring application workflow
 #### actuator
 #### Spring framework:Tell me about spring boot
@@ -236,7 +268,7 @@
 #### What is dependencies Injection?
 #### How many types of beans in spring?
 #### What annotations that are use in Spring? 
-#### Describe annotation for each of the MVC application layers?
+
 #### What is the difference between spring ang springboot? 
 #### What are the annotations that you know for spring jpa and what do they mean? 
 #### What is an Http session? 
@@ -253,6 +285,15 @@
 #### What is the diff?
 
 ### Project
+#### Asked about the roles & responsibilities of current project being worked on?
+  * https://github.com/seaboyz/4am
+  1. Requirements
+  2. How did you decide on the framework/tools that you selected
+  3. Basic structure
+  4. Files, folders, libraries
+  5. Basic workflow
+
+
 #### Can you explain about your project that you did by yourself?
 #### for a projectHow would you describe Java and Angular in a non-technical way? 
 #### What annotation did you use in your project?
@@ -262,7 +303,7 @@
 #### Talk about your project overall? 
 #### What technologies did you used for those projects?
 #### How would you let other developers/testers know how to access your urls?
-#### Behavior:Project role/responsibility
+
 
 
 ### Angular
@@ -441,7 +482,65 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
 
 
 
+#### 06/05/2022 Questions
+1. First Question was just to tell them a little about myself
+2. Asked about the roles & responsibilities of current project being worked on
+3. Asked to describe my P2 to them, like describe the overall application and whats function is
+4. Why Strings in Java are immutable?
+   * An immutable object is an object whose internal state remains constant after it has been entirely created. 
+   * https://www.baeldung.com/java-string-immutable
+   * The key benefits of keeping this class as immutable are 
+     * caching, 
+     * security, 
+     * synchronization, 
+     * and performance.
+   * ![](string.png)
+5. What Angular AOT compiler is?
+   https://www.youtube.com/watch?v=-h_zSpjL4TY
+   * AOT
+     * Ahead of time compilation
+     * compiles the application just in time in the broswer at the run time
+     * can run the the applicaiton as long as application is dowloaded
+6. What are micro-services & web-services
+   https://www.parasoft.com/blog/web-api-vs-web-services-microservices-basics-differences/
+   * A microservice is a small, independent, application that performs a highly focused service as well as possible.
+     * Archietureal style 
+     * ![](micro-servesles.png)
+     * ![](api-microservices.png)
+   * A web service is an internet-based interface that makes the “services” of one application available to applications running on different platforms. 
+     * A web service is a set of interfaces that define the functionality of an application.
+     * ![](/rest-api.png)
+   * API stands for Application Programming Interface.
+    * ![](api.png)
+7. What Java JIT compiler is?
+    * JIT
+     * Just in time compilation
+     * compiles the application at the build time
+     * browser need to download the compiler to compile the application at the run time
+     * compiler is over 1 megabytes
+8.  What IoC (inversion of control) is?
+     * https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+     * Instead user instanciate a object(for exmple,dabase connection jpa, spring jpa create the Entitymanager for caller to use to do query or transaction ).framework will create the object for you.
+     * Inversion of control is a software design principle that asserts a program can benefit in terms of pluggability, testability, usability and loose coupling if the management of an application's flow is transferred to a different part of the application.
+     * The Inversion-of-Control (IoC) pattern, is about providing any kind of callback (which controls reaction), instead of acting ourself directly (in other words, inversion and/or redirecting control to external handler/controller). The Dependency-Injection (DI) pattern is a more specific version of IoC pattern, and is all about removing dependencies from your code.
+   * 
 
+
+9.  What Spring boot is?
+10. Describe hibernate ORM
+11. Asked what dependency injection is
+12. Asked about SQL & general experience with it
+13. Difference between collections & streams
+14. Difference between Linked List & Array List
+15. Can entity classes be marked as final?
+16. Is “finally” guaranteed to run?
+17. Can you override a private or static method in Java?
+    * No, we cannot override private or static methods in Java.
+    * Private methods in Java are not visible to any other class which limits their scope to the class in which they are declared.
+18. Asked about RESTful API
+19. Asked about what kind of exceptions I can expect to see thrown when comparing strings 
+with like .compareTo() & .equals()
+20. Asked about @SpringBootApplication annotation
 
 
 
