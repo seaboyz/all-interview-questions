@@ -49,6 +49,7 @@
   - [What is stateless?](#what-is-stateless)
   - [What is thymeleaf?](#what-is-thymeleaf)
 - [Database](#database)
+  - [Aggregate and Scalar Functions](#aggregate-and-scalar-functions)
   - [How you connected your db in java?](#how-you-connected-your-db-in-java-1)
   - [Have you worked with Hibernate before?](#have-you-worked-with-hibernate-before)
   - [question: how to select top 15% employees base on salary](#question-how-to-select-top-15-employees-base-on-salary)
@@ -228,6 +229,26 @@
 
 
 ### Database
+#### Aggregate and Scalar Functions
+* Aggregate functions: 
+  * These functions are used to do operations from the values of the column and a single value is returned.
+  * AVG()
+  * COUNT()
+  * FIRST()
+  * LAST()
+  * MAX()
+  * MIN()
+  * SUM()
+* Scalar functions: 
+  * These functions are based on user input, these too returns single value. 
+    * UCASE()
+    * LCASE()
+    * MID()
+    * LEN()
+    * ROUND()
+    * NOW()
+    * FORMAT()
+
 #### How you connected your db in java?
 #### Have you worked with Hibernate before?
 #### question: how to select top 15% employees base on salary
