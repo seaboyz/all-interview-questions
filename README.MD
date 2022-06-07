@@ -73,7 +73,8 @@
   - [What is dependencies Injection?](#what-is-dependencies-injection)
   - [How many types of beans in spring?](#how-many-types-of-beans-in-spring)
   - [What annotations that are use in Spring?](#what-annotations-that-are-use-in-spring)
-  - [What is the difference between spring ang springboot?](#what-is-the-difference-between-spring-ang-springboot)
+  - [What is the difference between spring and springboot?](#what-is-the-difference-between-spring-and-springboot)
+  - [spring boot vs spring mvc?](#spring-boot-vs-spring-mvc)
   - [What are the annotations that you know for spring jpa and what do they mean?](#what-are-the-annotations-that-you-know-for-spring-jpa-and-what-do-they-mean)
   - [What is an Http session?](#what-is-an-http-session)
   - [Where would you do the configuration in a spring project?](#where-would-you-do-the-configuration-in-a-spring-project)
@@ -290,7 +291,20 @@ https://www.baeldung.com/spring-bean-scopes
 #### How many types of beans in spring?
 #### What annotations that are use in Spring? 
 
-#### What is the difference between spring ang springboot? 
+#### What is the difference between spring and springboot? 
+
+#### spring boot vs spring mvc?
+  * spring mvc
+    * is a web framework built on Java Servelet Api
+    * simplifies & enriches development of web applications based on java servlet stack
+    * is part of spring framwork core
+    * Developers user spring mvc to create web apps running on a servlet container such as Tomcat, Jetty, or Glassfish.
+  * spring boot 
+    * is a way that helps developer get started with spring framework with minimum effort
+    * makes it easy to create stand-alone, production-grade spring based apps.
+    * is a project of spring platform
+    * developer user spring boot to save time and increace productivity in developing spring based applications running as a standalone application.
+
 #### What are the annotations that you know for spring jpa and what do they mean? 
 #### What is an Http session? 
 #### Where would you do the configuration in a spring project? 
@@ -544,10 +558,9 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
      * Instead user instanciate a object(for exmple,dabase connection jpa, spring jpa create the Entitymanager for caller to use to do query or transaction ).framework will create the object for you.
      * Inversion of control is a software design principle that asserts a program can benefit in terms of pluggability, testability, usability and loose coupling if the management of an application's flow is transferred to a different part of the application.
      * The Inversion-of-Control (IoC) pattern, is about providing any kind of callback (which controls reaction), instead of acting ourself directly (in other words, inversion and/or redirecting control to external handler/controller). The Dependency-Injection (DI) pattern is a more specific version of IoC pattern, and is all about removing dependencies from your code.
-   * 
-
 
 9.  What Spring boot is?
+    * 
 10. Describe hibernate ORM
 11. Asked what dependency injection is
 12. Asked about SQL & general experience with it
@@ -562,6 +575,19 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
 19. Asked about what kind of exceptions I can expect to see thrown when comparing strings 
 with like .compareTo() & .equals()
 20. Asked about @SpringBootApplication annotation
+
+
+why is java "platform independent"
+why strings are immutable
+the final keyword (how do we make a class immutable)
+exceptions and how they're handled
+REST API
+[words describing what http is, asked what it is called]
+http methods
+how do you set up a spring boot application (which im realizing i forgot to mention the @SpringBootApplication annotation lol)
+since I told them im devops lead, they asked me what the AWS cloud services are and told me to list them off
+RDS, S3, EC2, CodeBuild, CodePipeline
+and asked if i knew what cloud watch is
 
 
 
