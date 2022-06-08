@@ -133,6 +133,8 @@
   - [command line used Linux command used for the project](#command-line-used-linux-command-used-for-the-project)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory-1)
+- [microservices](#microservices)
+  - [What is microservices?](#what-is-microservices)
   - [06/05/2022 Questions](#06052022-questions)
 - [spring boot vs spring framework?](#spring-boot-vs-spring-framework)
 
@@ -235,14 +237,26 @@
 #### SQL: How to fetch top 10 salaried employees?
 #### JPA/Hibernate/JDBC  
 * SPRING DATA JPA
+  * no-code implementation of the repository pattern
+  * creation of database queries from methods names
+  * Spring data jpa remove the boiler plate code of the jpa.
+  * make the data access layer more easy to use and maintain.
+  * reason to use spring data jpa
+    * No-code Respository
+    * reduce boilerplate code(no read and write code)
+    * generation queries based on method names
   
 * JPA: Java Persistence API
-  *  object relational mapping
+  * specification for object-relational mapping (ORM)
+  * Reduce the complexity of the persistence layer by providing a standard API for accessing and manipulating data.
+  * object relational mapping
   * relational database
   * class(Entity) => table
   * object => row or row in the join table
   
-* Hibernate: Hibernate is a framework for mapping database tables to Java classes and vice versa.
+* Hibernate: 
+  * hibernate is the implimentation of jpa
+  * Hibernate is a framework for mapping database tables to Java classes and vice versa.
 * JDBC: Java Database Connectivity
 * SQL: Structured Query Language
 #### What is aggregator? 
@@ -451,6 +465,10 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
 #### command line used Linux command used for the project
 #### Linux commands to switch between users and view the available space in a directory?
 #### Linux commands to switch between users and view the available space in a directory?
+
+### microservices
+#### What is microservices?
+
 
 
 
