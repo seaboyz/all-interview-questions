@@ -10,6 +10,28 @@
   - [Challenges](#challenges)
   - [Strength](#strength)
   - [weakness](#weakness)
+ [Server Side](#server-side)
+  - [What is an Http client?](#what-is-an-http-client)
+  - [What is stateless?](#what-is-stateless)
+  - [What is thymeleaf?](#what-is-thymeleaf)
+  - [difference between a session and a cookie](#difference-between-a-session-and-a-cookie)
+  - [http session](#http-session)
+  - [cockie](#cockie)
+  - [jwt](#jwt)
+  - [session vs token](#session-vs-token)
+    - [authentication](#authentication)
+- [Soft](#soft)
+  - [Tell about Your self?](#tell-about-your-self)
+  - [Technical interview: Tell me about your self and within 3-4 years where you want to see your self.](#technical-interview-tell-me-about-your-self-and-within-3-4-years-where-you-want-to-see-your-self)
+  - [Tell me about a time when you had a person that was hampering your progress as a team](#tell-me-about-a-time-when-you-had-a-person-that-was-hampering-your-progress-as-a-team)
+  - [If you had a superpower what would it be and why?](#if-you-had-a-superpower-what-would-it-be-and-why)
+  - [Tell me about yourself and what led you to Revature?](#tell-me-about-yourself-and-what-led-you-to-revature)
+  - [How to resolve conflicts between team members?](#how-to-resolve-conflicts-between-team-members)
+  - [team cooperation](#team-cooperation)
+  - [communication](#communication)
+  - [Challenges](#challenges)
+  - [Strength](#strength)
+  - [weakness](#weakness)
 - [Server Side](#server-side)
   - [What is an Http client?](#what-is-an-http-client)
   - [What is stateless?](#what-is-stateless)
@@ -211,10 +233,18 @@
 #### What is Relational Database Management Services (RDMS)? 
 #### It is not RDS
 #### SQL: How to fetch top 10 salaried employees?
-#### JPA/Hibernate/JDBC 
+#### JPA/Hibernate/JDBC  
+* SPRING DATA JPA
+  
 * JPA: Java Persistence API
+  *  object relational mapping
+  * relational database
+  * class(Entity) => table
+  * object => row or row in the join table
+  
 * Hibernate: Hibernate is a framework for mapping database tables to Java classes and vice versa.
 * JDBC: Java Database Connectivity
+* SQL: Structured Query Language
 #### What is aggregator? 
 #### How many databases did I use?
 #### Can I name what they are? 
