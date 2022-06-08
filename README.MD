@@ -144,7 +144,14 @@
 #### What is an Http client? 
 #### What is stateless? 
 #### What is thymeleaf?
+
 #### difference between a session and a cookie
+* cokkie is work as a seesion Id.
+* session id is save in the backend database.
+* every time client send request with the cockie, backend server compare it with the session id, to identify the client, to be able to to keep the session.
+![](session-cookie.png)
+* drawbacks, because the session id is saved in the database
+* right backend server and database are running on multiple server, so the syncrazaiton between servers are problems.
 
 #### http session
 * In client-server protocols, like HTTP, sessions consist of three phases:
@@ -155,6 +162,7 @@
 * An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. 
 * The browser may store the cookie and send it back to the same server with later requests. 
 * Typically, an ***HTTP cookie is used to tell if two requests come from the same browser*** —keeping a user logged in, for example. It remembers stateful information for the stateless HTTP protocol.
+
 
 
 ### Database
