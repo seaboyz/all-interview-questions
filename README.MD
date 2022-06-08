@@ -10,47 +10,16 @@
   - [Challenges](#challenges)
   - [Strength](#strength)
   - [weakness](#weakness)
-- [Core Java and OOP](#core-java-and-oop)
-  - [What is DAO?](#what-is-dao)
-  - [Difference between abstract classes and interfaces?](#difference-between-abstract-classes-and-interfaces)
-  - [What is Encapsulation and Abstraction?](#what-is-encapsulation-and-abstraction)
-  - [Analytical question: Difference between method and function..](#analytical-question-difference-between-method-and-function)
-  - [How to handle class not found exception](#how-to-handle-class-not-found-exception)
-  - [Describe one thin that introduced in the java 8?](#describe-one-thin-that-introduced-in-the-java-8)
-  - [Tell me about functional interface?](#tell-me-about-functional-interface)
-  - [Do you know Method References?](#do-you-know-method-references)
-  - [Difference between lambda expression and method reference?](#difference-between-lambda-expression-and-method-reference)
-  - [Tell me about Stream API?](#tell-me-about-stream-api)
-  - [When is each method of software development apply?](#when-is-each-method-of-software-development-apply)
-  - [What is java 8 features?](#what-is-java-8-features)
-  - [Describe Abstract in OOP](#describe-abstract-in-oop)
-  - [what is Java streaming?](#what-is-java-streaming)
-  - [core java: polymorphism, abstract classes and interfaces(difference), AbstractionAws, aws](#core-java-polymorphism-abstract-classes-and-interfacesdifference-abstractionaws-aws)
-  - [storage class](#storage-class)
-  - [streams](#streams)
-  - [Core java: what is JVM ?](#core-java-what-is-jvm-)
-  - [What is polymorphism?](#what-is-polymorphism)
-  - [Encapsulation and access modifier,the  types of access modifier,Which one is more protective?](#encapsulation-and-access-modifierthe--types-of-access-modifierwhich-one-is-more-protective)
-  - [How many constructors you used in java?](#how-many-constructors-you-used-in-java)
-  - [Can you do static overriding?](#can-you-do-static-overriding)
-  - [How you connected your db in java?](#how-you-connected-your-db-in-java)
-  - [Analytical question: Difference between method and function..](#analytical-question-difference-between-method-and-function-1)
-  - [How to handle class not found](#how-to-handle-class-not-found)
-  - [exception](#exception)
-  - [Java 8 interfaces and features](#java-8-interfaces-and-features)
-  - [MapException handling](#mapexception-handling)
-  - [Difference between string buffer and String Builder](#difference-between-string-buffer-and-string-builder)
-  - [What is java 8 features?](#what-is-java-8-features-1)
-  - [Describe Abstract in OOP](#describe-abstract-in-oop-1)
-  - [what is Java streaming?](#what-is-java-streaming-1)
-  - [difrenerence between Throw and Throws?](#difrenerence-between-throw-and-throws)
 - [Server Side](#server-side)
   - [What is an Http client?](#what-is-an-http-client)
   - [What is stateless?](#what-is-stateless)
   - [What is thymeleaf?](#what-is-thymeleaf)
+  - [difference between a session and a cookie](#difference-between-a-session-and-a-cookie)
+  - [http session](#http-session)
+  - [cockie](#cockie)
 - [Database](#database)
   - [Aggregate and Scalar Functions](#aggregate-and-scalar-functions)
-  - [How you connected your db in java?](#how-you-connected-your-db-in-java-1)
+  - [How you connected your db in java?](#how-you-connected-your-db-in-java)
   - [Have you worked with Hibernate before?](#have-you-worked-with-hibernate-before)
   - [question: how to select top 15% employees base on salary](#question-how-to-select-top-15-employees-base-on-salary)
   - [What are joins?](#what-are-joins)
@@ -62,24 +31,6 @@
   - [What is aggregator?](#what-is-aggregator)
   - [How many databases did I use?](#how-many-databases-did-i-use)
   - [Can I name what they are?](#can-i-name-what-they-are)
-- [Spring](#spring)
-  - [Srping Bean scrope?](#srping-bean-scrope)
-  - [Spring framework:Tell me about spring boot](#spring-frameworktell-me-about-spring-boot)
-  - [Describe annotation for each of the Spring MVC application layers?](#describe-annotation-for-each-of-the-spring-mvc-application-layers)
-  - [Describe the spring application workflow](#describe-the-spring-application-workflow)
-  - [actuator](#actuator)
-  - [Spring framework:Tell me about spring boot](#spring-frameworktell-me-about-spring-boot-1)
-  - [Do you know what stereotypes and annotations are](#do-you-know-what-stereotypes-and-annotations-are)
-  - [What is dependencies Injection?](#what-is-dependencies-injection)
-  - [How many types of beans in spring?](#how-many-types-of-beans-in-spring)
-  - [What annotations that are use in Spring?](#what-annotations-that-are-use-in-spring)
-  - [What is the difference between spring and springboot?](#what-is-the-difference-between-spring-and-springboot)
-  - [spring boot vs spring mvc?](#spring-boot-vs-spring-mvc)
-  - [What are the annotations that you know for spring jpa and what do they mean?](#what-are-the-annotations-that-you-know-for-spring-jpa-and-what-do-they-mean)
-  - [What is an Http session?](#what-is-an-http-session)
-  - [Where would you do the configuration in a spring project?](#where-would-you-do-the-configuration-in-a-spring-project)
-  - [Describe the spring application workflow](#describe-the-spring-application-workflow-1)
-  - [What is @RestController?](#what-is-restcontroller)
 - [Git](#git)
   - [Github: merge conflict and how you handle this?](#github-merge-conflict-and-how-you-handle-this)
   - [Github: merge conflict and how you handle this?](#github-merge-conflict-and-how-you-handle-this-1)
@@ -113,7 +64,7 @@
   - [What is waterfall software lifecycle development?](#what-is-waterfall-software-lifecycle-development-1)
   - [What is Agile?](#what-is-agile-1)
   - [What is the difference between Waterfall and Agile?](#what-is-the-difference-between-waterfall-and-agile-1)
-  - [When is each method of software development apply?](#when-is-each-method-of-software-development-apply-1)
+  - [When is each method of software development apply?](#when-is-each-method-of-software-development-apply)
 - [Testing](#testing)
   - [TDD](#tdd)
   - [BDD](#bdd)
@@ -153,7 +104,6 @@
   - [JavaScript](#javascript)
   - [Typescript](#typescript)
   - [JavaScript Functions](#javascript-functions)
-  - [difference between a session and a cookie](#difference-between-a-session-and-a-cookie)
 - [Command line](#command-line)
   - [command line used Linux command used for the project](#command-line-used-linux-command-used-for-the-project)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
@@ -188,45 +138,23 @@
 #### weakness
 
 
-### Core Java and OOP
-#### What is DAO?
-#### Difference between abstract classes and interfaces?
-#### What is Encapsulation and Abstraction?
-#### Analytical question: Difference between method and function.. 
-#### How to handle class not found exception
-#### Describe one thin that introduced in the java 8?
-#### Tell me about functional interface?
-#### Do you know Method References?
-#### Difference between lambda expression and method reference?
-#### Tell me about Stream API?
-#### When is each method of software development apply?
-#### What is java 8 features?
-#### Describe Abstract in OOP
-#### what is Java streaming?
-#### core java: polymorphism, abstract classes and interfaces(difference), AbstractionAws, aws 
-#### storage class
-#### streams
-#### Core java: what is JVM ? 
-#### What is polymorphism? 
-#### Encapsulation and access modifier,the  types of access modifier,Which one is more protective? 
-#### How many constructors you used in java?  
-#### Can you do static overriding?
-#### How you connected your db in java?
-#### Analytical question: Difference between method and function.. 
-#### How to handle class not found 
-#### exception
-#### Java 8 interfaces and features
-#### MapException handling
-#### Difference between string buffer and String Builder
-#### What is java 8 features?
-#### Describe Abstract in OOP
-#### what is Java streaming?
-#### difrenerence between Throw and Throws? 
+
 
 ### Server Side
 #### What is an Http client? 
 #### What is stateless? 
 #### What is thymeleaf?
+#### difference between a session and a cookie
+
+#### http session
+* In client-server protocols, like HTTP, sessions consist of three phases:
+  * The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP).
+  * The client sends its request, and waits for the answer.
+  * The server processes the request, sending back its answer, providing a status code and appropriate data.
+#### cockie
+* An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. 
+* The browser may store the cookie and send it back to the same server with later requests. 
+* Typically, an ***HTTP cookie is used to tell if two requests come from the same browser*** —keeping a user logged in, for example. It remembers stateful information for the stateless HTTP protocol.
 
 
 ### Database
@@ -262,54 +190,6 @@
 #### What is aggregator? 
 #### How many databases did I use?
 #### Can I name what they are? 
-
-### Spring
-#### Srping Bean scrope?
-https://www.baeldung.com/spring-bean-scopes
-* definition
-  * The scope of a bean defines the life cycle and visibility of that bean in the contexts we use it.
-https://www.baeldung.com/spring-bean-scopes
-  * singleton
-  * prototype
-  * request
-  * session
-  * application
-  * websocket
-
-#### Spring framework:Tell me about spring boot 
-
-#### Describe annotation for each of the Spring MVC application layers?
-  * https://www.youtube.com/watch?v=xkDBaldNki4
-  * As the name suggests, it's a module of the Spring framework dealing with the Model-View-Controller or MVC pattern. It combines all the advantages of the MVC pattern with the convenience of Spring.
-  * Spring MVC annotation
-    * https://www.baeldung.com/spring-mvc-annotations
-#### Describe the spring application workflow
-#### actuator
-#### Spring framework:Tell me about spring boot
-#### Do you know what stereotypes and annotations are
-#### What is dependencies Injection?
-#### How many types of beans in spring?
-#### What annotations that are use in Spring? 
-
-#### What is the difference between spring and springboot? 
-
-#### spring boot vs spring mvc?
-  * spring mvc
-    * is a web framework built on Java Servelet Api
-    * simplifies & enriches development of web applications based on java servlet stack
-    * is part of spring framwork core
-    * Developers user spring mvc to create web apps running on a servlet container such as Tomcat, Jetty, or Glassfish.
-  * spring boot 
-    * is a way that helps developer get started with spring framework with minimum effort
-    * makes it easy to create stand-alone, production-grade spring based apps.
-    * is a project of spring platform
-    * developer user spring boot to save time and increace productivity in developing spring based applications running as a standalone application.
-
-#### What are the annotations that you know for spring jpa and what do they mean? 
-#### What is an Http session? 
-#### Where would you do the configuration in a spring project? 
-#### Describe the spring application workflow
-#### What is @RestController? 
 
 
 
@@ -507,7 +387,7 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
 #### JavaScript
 #### Typescript
 #### JavaScript Functions
-#### difference between a session and a cookie
+
 
 ### Command line
 #### command line used Linux command used for the project
