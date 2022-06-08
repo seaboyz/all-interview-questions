@@ -112,6 +112,7 @@
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory)
   - [Linux commands to switch between users and view the available space in a directory?](#linux-commands-to-switch-between-users-and-view-the-available-space-in-a-directory-1)
   - [06/05/2022 Questions](#06052022-questions)
+- [spring boot vs spring framework?](#spring-boot-vs-spring-framework)
 
 ### Soft
 #### Tell about Your self?
@@ -464,19 +465,22 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
      * The Inversion-of-Control (IoC) pattern, is about providing any kind of callback (which controls reaction), instead of acting ourself directly (in other words, inversion and/or redirecting control to external handler/controller). The Dependency-Injection (DI) pattern is a more specific version of IoC pattern, and is all about removing dependencies from your code.
 
 9.  What Spring boot is?
-    * 
-10. Describe hibernate ORM
-11. Asked what dependency injection is
-12. Asked about SQL & general experience with it
-13. Difference between collections & streams
-14. Difference between Linked List & Array List
-15. Can entity classes be marked as final?
-16. Is “finally” guaranteed to run?
-17. Can you override a private or static method in Java?
+
+### spring boot vs spring framework?
+![](spring-spring-boot.png)
+  
+1.  Describe hibernate ORM
+2.  Asked what dependency injection is
+3.  Asked about SQL & general experience with it
+4.  Difference between collections & streams
+5.  Difference between Linked List & Array List
+6.  Can entity classes be marked as final?
+7.  Is “finally” guaranteed to run?
+8.  Can you override a private or static method in Java?
     * No, we cannot override private or static methods in Java.
     * Private methods in Java are not visible to any other class which limits their scope to the class in which they are declared.
-18. Asked about RESTful API
-19. Asked about what kind of exceptions I can expect to see thrown when comparing strings 
+9.  Asked about RESTful API
+10. Asked about what kind of exceptions I can expect to see thrown when comparing strings 
 with like .compareTo() & .equals()
 20. Asked about @SpringBootApplication annotation
 
