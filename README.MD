@@ -212,6 +212,9 @@
 #### It is not RDS
 #### SQL: How to fetch top 10 salaried employees?
 #### JPA/Hibernate/JDBC 
+* JPA: Java Persistence API
+* Hibernate: Hibernate is a framework for mapping database tables to Java classes and vice versa.
+* JDBC: Java Database Connectivity
 #### What is aggregator? 
 #### How many databases did I use?
 #### Can I name what they are? 
@@ -500,6 +503,21 @@ how do you set up a spring boot application (which im realizing i forgot to ment
 since I told them im devops lead, they asked me what the AWS cloud services are and told me to list them off
 RDS, S3, EC2, CodeBuild, CodePipeline
 and asked if i knew what cloud watch is
+
+- Tel me about yourself
+- Features of spring boot
+- Spring boot annotations
+- Type of dependency injection in Spring boot
+- What is the difference between them? 
+- Difference between HTML and XHTML
+- can you display only one HTML page or many? 
+  * ```html
+* <iframe width="560" height="315" src="https://www.youtube.com/embed/eGUEAvNpz48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  ```
+- typeOf in Javascript
+- example of errors in JavaScript
+- list of Angular lifecycle hooks
+- what are microservices
 
 
 
