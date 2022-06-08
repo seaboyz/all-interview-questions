@@ -468,7 +468,11 @@ https://docs.oracle.com/cd/E19462-01/819-4672/adqar/index.html
 
 ### spring boot vs spring framework?
 ![](spring-spring-boot.png)
-  
+![](spring-spring-boot-feature.png)
+![](/spring-spring-boot-relation.png)
+![](spring-vs-spring-boot.png)
+* spring boot is abstraction of spring framework
+
 1.  Describe hibernate ORM
 2.  Asked what dependency injection is
 3.  Asked about SQL & general experience with it
