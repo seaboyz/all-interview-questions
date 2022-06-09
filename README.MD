@@ -228,6 +228,7 @@
     * FORMAT()
 
 #### How you connected your db in java?
+https://www.geeksforgeeks.org/establishing-jdbc-connection-in-java/amp/
 #### Have you worked with Hibernate before?
 #### question: how to select top 15% employees base on salary
 #### What are joins?
